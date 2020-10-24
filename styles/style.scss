@@ -1,6 +1,7 @@
 @import "_variables";
 @import "_base";
 @import "_header";
+@import "_cart";
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
@@ -17,6 +18,11 @@
 
 .top-nav > .menu-list .menu-link {
     text-transform: uppercase;
+    padding-bottom: 14px;
+}
+
+.top-nav > .menu-list .menu-link:hover {
+  border-bottom: 3px solid #ef5b70;
 }
 
 .top-nav > .menu-list .menu-item:not(:last-child) {
@@ -28,8 +34,8 @@
     background: no-repeat top url(../img/topHeaderBack.png);
     min-height: 613px;
     display: flex;
-    background-size: 21%;
-    background-position-x: 63%;
+    background-size: 63%;
+    background-position-x: 88%;
 }
 
 .slider-content {
@@ -197,7 +203,7 @@
   margin: 0 0 0 10px; }
 
 .offer {
-  padding: 113px 0 97px 0;
+  margin-top: 113px;
   display: flex; }
 
 .offer-image {
@@ -255,3 +261,17 @@
   color: #FFFFFF;
   max-width: 219px;
   margin: 10px 43px 0 0; }
+
+.subscribe {
+  margin-top: 97px;
+  background-color: rgba(242,242,242,0.5);
+  background-blend-mode: overlay;
+  background-image: url(../img/subscribe.png);
+  background-size: cover;
+  background-position-y: bottom;
+  min-height: 428px;
+  &__content {
+    width: 50%;
+    height: inherit;
+  }
+}
