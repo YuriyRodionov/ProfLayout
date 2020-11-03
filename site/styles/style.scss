@@ -1,7 +1,11 @@
 @import "_variables";
 @import "_base";
 @import "_header";
+@import "_top-nav";
+@import "_footer";
 @import "_cart";
+@import "_singlepage";
+@import "_checkout";
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
@@ -127,7 +131,9 @@
 .item__image {
   max-height: 279px;
   width: 100%;
-  background-color: #E9E9E9; }
+  background-color: #E9E9E9;
+  object-fit: cover;
+ }
 
 .item__image:hover ~ .item__hover {
   display: block; }
@@ -262,16 +268,6 @@
   max-width: 219px;
   margin: 10px 43px 0 0; }
 
-.subscribe {
-  margin-top: 97px;
-  background-color: rgba(242,242,242,0.5);
-  background-blend-mode: overlay;
-  background-image: url(../img/subscribe.png);
-  background-size: cover;
-  background-position-y: bottom;
-  min-height: 428px;
-  &__content {
-    width: 50%;
-    height: inherit;
-  }
-}
+
+
+

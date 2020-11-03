@@ -1,31 +1,4 @@
-.why {
-    background-color: #f8f3f4;
-    height: 148px;
-    &_content {
-        display: flex;
-        height: inherit;
-        justify-content: space-between;
-        align-items: center;
-         p {
-            font-size: 24px;
-          line-height: 20px;
-          font-weight: 900;
-          text-transform: uppercase;
-          color: #f16d7f;
-          }
-          a {
-            font-size: 14px;
-          line-height: 20px;
-          font-weight: 300;
-          text-transform: uppercase;
-          color: #636363;
-          }
-          a:hover {
-            color: $mainColor;
-          }
-      }
-  }
-  
+
   .cart-top {
       margin-top: 90px;
       margin-bottom: 15px;
@@ -45,10 +18,15 @@
           }
       }
       &__name:first-of-type {
-        width: 500px;
+        margin-right: auto;
       }
   }
   
+  .cart-width {
+    width: 120px;
+    text-align: center;
+  }
+
   .cart-element {
       height: 167px;
       display: flex;
@@ -56,8 +34,12 @@
       align-items: center;
       border: 1px solid #fafafa;
       &__info {
-          display: inline-block;
-          width: 500px;
+          display: flex;
+          margin-right: auto;
+          > img[alt="miniproduct"] {
+            float: left;
+            margin-right: 20px;
+            }
           > div {
               padding-top: 10px;
               > a {
@@ -77,7 +59,7 @@
                 font-weight: 400;
                 color: #575757;
               }
-              span {
+              > span {
                 font-size: 13px;
                 font-weight: 300;
                 color: #6f6e6e;
@@ -85,42 +67,31 @@
           }
       }
      
-  }
-
-  img[alt="miniproduct"] {
-      float: left;
-      margin-right: 20px;
-  }
-  
- input[type="number"] {
-     width: 54px;
-     height: 30px;
-     border: 1px solid #eaeaea;
-     text-align: center;
- }
-
- img[alt="drop"] {
-   margin-right: 22px;
-   margin-left: 15px;
- }
-
- .cart-finish {
-      display: flex;
-      justify-content: space-between;
-      margin-top: 43px;
-      & a {
-        font-size: 14px;
-        line-height: 1.2;
-        font-weight: 700;
-        text-transform: uppercase;
-        color: #4a4a4a;
-        padding: 20px 38px;
+      & input[type="number"] {
+        width: 54px;
+        height: 30px;
         border: 1px solid #eaeaea;
-        &:hover {
-          background-color: $mainColor;
-        }
+        text-align: center;
+    }
+  }
+      
+ .cart-finish {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 43px;
+    & a {
+      font-size: 14px;
+      line-height: 1.2;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #4a4a4a;
+      padding: 20px 38px;
+      border: 1px solid #eaeaea;
+      &:hover {
+        background-color: $mainColor;
       }
- }
+    }
+  }
 
  .cart-form {
    margin-top: 81px;
@@ -128,7 +99,7 @@
    display: flex;
   justify-content: space-between;
   & form {
-    min-width: 355px;
+    width: 30%;
     height: 270px;
     display: flex;
     flex-direction: column;
@@ -148,11 +119,9 @@
       color: #000000;
     }
     > input[type="text"] {
-      width: inherit;
       font-size: 13px;
       line-height: 1.2;
       font-weight: 300;
-      color: hsl(0, 0%, 69%);
       height: 45px;
       outline: none;
       overflow: hidden;
@@ -175,19 +144,52 @@
     }
    }
     & select {
-      width: inherit;
+      width: 100%;
       height: 45px;
       font-size: 13px;
       line-height: 1.2;
       font-weight: 300;
-      color: #b1b1b1;
       padding-left: 18px;
       border: 1px solid #eaeaea;
     }
   }
   > #coupon {
     height: 185px;
+    width: 30%;
+  }
+  > #total {
+    background-color: #f5f3f3;
+    width: 30%;
+    height: 214px;
+    text-align: right;
+    padding: 41px;
+    box-sizing: border-box;
+    > p {
+      font-size: 11px;
+      line-height: 1.2;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: #4a4a4a;
+    }
+    > h4 {
+      font-size: 16px;
+      line-height: 1.2;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #222222;
+      > span {
+        color: $mainColor;
+      }
+    }
+    > input[type="submit"] {
+      width: 100%;
+      height: 50px;
+      font-size: 16px;
+      line-height: 1.2;
+      font-weight: 700;
+      text-transform: uppercase;
+      background-color: $mainColor;
+      color: #ffffff;
+    }
   }
  }
-
- 
