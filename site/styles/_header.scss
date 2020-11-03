@@ -67,11 +67,13 @@
     font-size: 14px;
     color: #a4a4a4;
     padding: 12px;
+    cursor: pointer;
 }
 
 
 .cart {
     margin-left: auto;
+    cursor: pointer;
 }
 
 .my-account {
@@ -96,3 +98,31 @@
 .header-line {
     border-bottom: 1px solid #ececec;
 }
+
+  .why {
+    background-color: #f8f3f4;
+    height: 148px;
+    &_content {
+        display: flex;
+        height: inherit;
+        justify-content: space-between;
+        align-items: center;
+        p {
+          font-size: 24px;
+          line-height: 20px;
+          font-weight: 900;
+          text-transform: uppercase;
+          color: $mainColor;
+          }
+          a {
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 300;
+            text-transform: uppercase;
+            color: #636363;
+          }
+          a:hover {
+            color: $mainColor;
+          }
+      }
+    }
