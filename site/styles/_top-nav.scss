@@ -21,3 +21,11 @@
 .top-nav > .menu-list .menu-item:not(:last-child) {
     margin-right: 48px;
 }
+
+#menu-header-checkbox {
+    display: none;
+  }
+  
+#menu-header-checkbox ~ label {
+    display: none;
+  }

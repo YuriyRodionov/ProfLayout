@@ -2,6 +2,12 @@
     display: flex;
     min-height: 100px;
     align-items: center;
+    justify-content: space-between;
+}
+
+.header-left, .header-right {
+    display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -18,7 +24,7 @@
 
 }
 
-.header > * {
+.header * {
     height: inherit;
     display: flex;
     align-content: center;
@@ -40,7 +46,8 @@
 .search__browse {
     background-color: #f6f6f6;
     min-width: 87px;
-    text-align: center;
+    align-items: baseline;
+    justify-content: space-evenly;
     border-radius: 3px 0px 0px 3px;
     cursor: pointer;
     &:hover {
@@ -82,13 +89,18 @@
     margin-left: 26px;
     min-width: 130px;
     justify-content: center;
+    align-items: baseline;
     & a {
+        align-items: baseline;
         font-size: 15px;
         line-height: 32px;
         font-weight: 400;
         color: #ffffff;
         &:hover {
             text-decoration: underline;
+        }
+        > i {
+            padding-left: 5px;
         }
     }
 }
@@ -126,3 +138,5 @@
           }
       }
     }
+
+    
