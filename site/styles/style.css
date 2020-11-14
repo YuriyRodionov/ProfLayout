@@ -467,7 +467,11 @@ a {
           justify-content: flex-start;
 }
 
-.information__links > h2 {
+.information__links > input[type="checkbox"] {
+  display: none;
+}
+
+.information__links h2 {
   margin: 10px 0 40px;
   font-size: 18px;
   font-weight: 700;
@@ -2016,6 +2020,31 @@ a {
     min-width: 767px;
     margin: auto;
   }
+  .subscribe__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .subscribe__content__left {
+    width: auto;
+    text-align: center;
+    border: none;
+  }
+  .subscribe__content__left .left-text {
+    text-align: center;
+  }
+  .subscribe__content__left .left-text .feedback-carousel {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .subscribe__content__right {
+    padding-bottom: 50px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -2057,6 +2086,24 @@ a {
   }
   .offer .offer-info {
     min-width: 720px;
+  }
+  .information {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .information__logo {
+    margin: 0 auto;
+    max-width: 100%;
+    text-align: center;
+  }
+  .information__logo p {
+    max-width: inherit;
   }
 }
 
@@ -2133,6 +2180,23 @@ a {
     min-width: 540px;
     min-height: 230px;
   }
+  .information__links {
+    padding: 10px;
+  }
+  .information__links ul {
+    display: none;
+  }
+  .information__links .menu-footer-input {
+    cursor: pointer;
+  }
+  .information__links label {
+    display: block;
+    text-align: center;
+  }
+  .menu-footer-input:checked ~ ul {
+    display: block;
+    text-align: center;
+  }
 }
 
 @media (max-width: 575px) {
@@ -2191,6 +2255,28 @@ a {
     min-width: -webkit-fit-content;
     min-width: -moz-fit-content;
     min-width: fit-content;
+  }
+  .subscribe__content__right {
+    min-width: 300px;
+    padding-left: 0px;
+  }
+  .subscribe__content__right .getemail #email {
+    min-width: 100px;
+  }
+  .subscribe__content__right .getemail .subscribe-button {
+    width: 70px;
+  }
+  .information__links h2 {
+    font-size: 12px;
+  }
+  .information__links ul {
+    font-size: 10px;
+  }
+  .information__links ul > li:not(:last-child) {
+    margin-bottom: 15px;
+  }
+  .footer p {
+    font-size: 12px;
   }
 }
 /*# sourceMappingURL=style.css.map */

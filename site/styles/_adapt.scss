@@ -24,6 +24,29 @@
       margin: auto;
     }
   }
+
+  .subscribe {
+    &__content {
+      display: flex;
+      flex-direction: column;
+      &__left {
+          width: auto;
+          text-align: center;
+          border: none;
+          .left-text {
+          text-align: center;
+          .feedback-carousel {
+            justify-content: center;
+          } 
+        }
+      }
+      &__right {
+        padding-bottom: 50px;
+      }
+    }
+  }
+
+
 }
 
 @media (max-width: 991px) {
@@ -66,6 +89,21 @@
       min-width: 720px;
     }
   }
+
+  .information {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    &__logo {
+      margin: 0 auto;
+      max-width: 100%;
+      text-align: center;
+      p {
+        max-width: inherit;
+      }
+    }
+  }
+ 
 }
 
 @media (max-width: 767px) {
@@ -137,6 +175,28 @@
       min-height: 230px;
     }
   }
+  
+  .information {
+    &__links {
+      padding: 10px;
+      ul {
+        display: none;
+      } 
+      .menu-footer-input {
+        cursor: pointer;
+        &:checked ~ ul {
+          display: block;
+          text-align: center;
+        }
+      }
+      label {
+        display: block;
+        text-align: center;
+      }
+     
+    }
+  }
+
 }
 
 @media (max-width: 575px) {
@@ -192,6 +252,36 @@
     }
   }
 
+  .subscribe__content__right {
+    min-width: 300px;
+    padding-left: 0px;
+    .getemail {
+      #email {
+        min-width: 100px;
+      }
+      .subscribe-button {
+        width: 70px;
+      }
+    }
+  }
+
+  .information {
+    &__links {
+      h2 {
+        font-size: 12px;
+      }
+      ul {
+        font-size: 10px;
+        > li:not(:last-child) {
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+
+  .footer {
+    p {
+      font-size: 12px;
+    }
+  }
 }
-
-
