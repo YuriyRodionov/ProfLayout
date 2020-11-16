@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="186091a6-d690-42f6-9b17-4cc87442b596" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4" />
+  <component name="ProjectId" id="1fdmGoR3wqoaHMPlSVbBvBxSlb3" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="C:/tools/Ruby/Ruby27-x64/bin/sass.bat" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="X:\YandexDisk\work\Lessons\verstka -- 3\lesson7\img" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="186091a6-d690-42f6-9b17-4cc87442b596" name="Default Changelist" comment="" />
+      <created>1596556250547</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596556250547</updated>
+      <workItem from="1596556252010" duration="5994000" />
+      <workItem from="1599500679849" duration="628000" />
+      <workItem from="1599503779799" duration="28000" />
+      <workItem from="1599503819660" duration="6056000" />
+      <workItem from="1601920687252" duration="5119000" />
+      <workItem from="1604768446415" duration="5783000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1524" y="253" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599501290453">
+      <screen x="-1920" y="30" width="1920" height="1050" />
+    </state>
+    <state x="-1524" y="253" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.30.1920.1050/0.30.1920.1050@-1920.30.1920.1050" timestamp="1599501290453" />
+    <state x="-1199" y="401" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601923825710">
+      <screen x="-1920" y="30" width="1920" height="1050" />
+    </state>
+    <state x="-1199" y="401" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1920.30.1920.1050/0.30.1920.1050@-1920.30.1920.1050" timestamp="1601923825710" />
+    <state x="-1382" y="276" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604768460589">
+      <screen x="-1920" y="24" width="1536" height="840" />
+    </state>
+    <state x="-1382" y="276" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.24.1536.840/0.30.1920.1050@-1920.24.1536.840" timestamp="1604768460589" />
+    <state x="-1248" y="345" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.30.1920.1050/0.30.1920.1050@-1920.30.1920.1050" timestamp="1599503882474" />
+    <state x="-1138" y="404" width="664" height="641" key="EditFileWatcherDialog" timestamp="1601926524130">
+      <screen x="-1920" y="30" width="1920" height="1050" />
+    </state>
+    <state x="-1138" y="404" width="664" height="641" key="EditFileWatcherDialog/-1920.30.1920.1050/0.30.1920.1050@-1920.30.1920.1050" timestamp="1601926524130" />
+    <state x="-999" y="381" key="FileChooserDialogImpl" timestamp="1599501186914">
+      <screen x="-1920" y="30" width="1920" height="1050" />
+    </state>
+    <state x="-999" y="381" key="FileChooserDialogImpl/-1920.30.1920.1050/0.30.1920.1050@-1920.30.1920.1050" timestamp="1599501186914" />
+    <state x="-1278" y="271" key="SettingsEditor" timestamp="1601926524955">
+      <screen x="-1920" y="30" width="1920" height="1050" />
+    </state>
+    <state x="-1278" y="271" key="SettingsEditor/-1920.30.1920.1050/0.30.1920.1050@-1920.30.1920.1050" timestamp="1601926524955" />
+    <state x="-1467" y="249" key="SettingsEditor/0.30.1920.1050/-1920.31.1920.1050@-1920.31.1920.1050" timestamp="1596556404456" />
+    <state x="-987" y="484" key="scopes" timestamp="1599501195069">
+      <screen x="-1920" y="30" width="1920" height="1050" />
+    </state>
+    <state x="-987" y="484" key="scopes/-1920.30.1920.1050/0.30.1920.1050@-1920.30.1920.1050" timestamp="1599501195069" />
+  </component>
+</project>
